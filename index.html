@@ -92,12 +92,12 @@
     </div>
 
     <div class="footer">
-        Target: November 19, 2026 @ 12:00 AM
+        Target: November 19, 2026 @ 12:00 AM UTC
     </div>
 
     <script>
-        // Set the precise GTA 6 release date and time
-        const targetDate = new Date("November 19, 2026 00:00:00").getTime();
+        // Set the precise GTA 6 release date and time (November 19, 2026 at 00:00:00 UTC)
+        const targetDate = new Date("2026-11-19T00:00:00Z").getTime();
 
         const interval = setInterval(function() {
             const now = new Date().getTime();
